@@ -8,11 +8,11 @@ function calcAverageCalories(days) {
       // console.log(day.day);
       // console.log(day.calories);
       totalCalories += day.calories;
-      averageCalories = totalCalories / totalDays;
     }
+    averageCalories = totalCalories / totalDays;
   }
 
-  return ` Avarage ${averageCalories} calories for week`;
+  return averageCalories;
 }
 
 console.log(
